@@ -17,7 +17,7 @@ spec:
       containers:
         - name: exam-container
           # Replace this image with your built/pushed image if different
-          image: atulkamble/exam:latest
+          image: umahalle/my-html-app:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
